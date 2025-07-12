@@ -1,0 +1,160 @@
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+
+    /* Adjustments for large tablets and small laptops */
+    nav {
+        margin: 0 100px;
+    }
+
+    .banner {
+        margin: 0 20px 0 100px;
+    }
+
+    footer {
+        padding: 100px 150px;
+    }
+
+    .about {
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Tablet adjustments */
+    nav {
+        margin: 0 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 50px;
+        gap: 30px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-profile-pic {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .skills-container,
+    .resume-container {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 80px 50px;
+        gap: 50px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .about {
+        padding: 80px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Large mobile adjustments */
+    .nav-title {
+        font-size: 35px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul li {
+        margin-right: 0;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-greetings {
+        font-size: 35px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .about-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-primary {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* Small mobile adjustments */
+    nav,
+    .banner {
+        margin: 0 20px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-greetings {
+        font-size: 28px;
+    }
+
+    .about {
+        padding: 60px 20px;
+    }
+
+    footer {
+        padding: 60px 20px;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        height: 50px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-description {
+        font-size: 16px;
+    }
+}
+
+/* Additional responsive tweaks */
+@media screen and (max-width: 400px) {
+    .banner-title {
+        font-size: 32px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .banner-content .btn-primary {
+        display: block;
+        margin: 10px auto;
+    }
+}
